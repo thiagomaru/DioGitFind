@@ -39,8 +39,16 @@ button{
 }
 
 .perfil{
+
     display: flex;
     margin: 40px;
+    
+}
+
+.perfil img{
+    width: 250px;
+    height: 250px;
+    border-radius: 128px;   
 }
 
 .profile{
@@ -61,7 +69,7 @@ button{
 }
 
 .perfil spam {
-    dispplay: block;
+    display: block;
     color: #999999;
     font-size: 14px;
     margin: 0;
@@ -81,4 +89,13 @@ button{
     color: #FFFFFF;
     margin: 12px 0;
     text-align: center;
+}
+
+
+.imgperfil{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    margin: 40px;
+    border-radius: 128px;
 }
